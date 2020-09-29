@@ -3,7 +3,7 @@
     {
       "fileMatch": ["^defaults.yml$"],
       "matchStrings": [
-        "suc_image:[[:space:]](?<depName>.*?):(?<currentValue>.*?)"
+        "suc_image:[[:space:]](?<depName>.*?):(?<currentValue>.*?)$"
       ],
       "datasourceTemplate": "docker"
     }
